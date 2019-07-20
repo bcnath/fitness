@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bimal.fitness">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".cablecrossover"></activity>
+        <activity android:name=".inclinedumbellpress" />
+        <activity android:name=".dumbellpress" />
+        <activity android:name=".inclinebarbellpress" />
+        <activity android:name=".benchpress" />
+        <activity android:name=".Cardio" />
+        <activity android:name=".Abs" />
+        <activity android:name=".Legs" />
+        <activity android:name=".Shoulder" />
+        <activity android:name=".Tricep" />
+        <activity android:name=".Bicep" />
+        <activity android:name=".Back" />
+        <activity android:name=".Chest" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".Exercises" />
+        <activity android:name=".Diet" />
+        <activity android:name=".Advice" />
+        <activity android:name=".Help" />
+        <activity android:name=".About" />
+    </application>
+
+</manifest>

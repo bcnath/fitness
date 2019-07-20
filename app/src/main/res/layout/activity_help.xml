@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.bimal.fitness.Help"
+    android:id="@+id/bck_pic"
+    android:layout_width="383dp"
+    android:layout_height="682dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="-24dp"
+    android:background="@drawable/bck_pic">
+    <LinearLayout
+        android:layout_width="383dp"
+        android:layout_height="682dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/name1"
+            android:layout_width="323dp"
+            android:layout_height="49dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="101dp"
+            android:background="@drawable/rectangle"
+            android:inputType="text"
+            android:hint="Name"
+            android:textAlignment="center"
+            android:textSize="24dp"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="323dp"
+            android:layout_height="49dp"
+            android:background="@drawable/rectangle"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="26dp"/>
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="323dp"
+            android:layout_height="49dp"
+            android:background="@drawable/rectangle"
+            android:inputType="textPhonetic"
+            android:hint="Phone"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="26dp"/>
+
+        <EditText
+            android:id="@+id/comment"
+            android:layout_width="323dp"
+            android:layout_height="139dp"
+            android:background="@drawable/rectangle2"
+            android:inputType="text"
+            android:hint="Comments"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="26dp"/>
+
+        <Button
+            android:id="@+id/sendbtn"
+            android:layout_width="282dp"
+            android:layout_height="59dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:text="SEND"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/send_btn"/>
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
